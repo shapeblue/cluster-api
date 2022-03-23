@@ -35,22 +35,23 @@ const (
 
 // Infra providers.
 const (
-	AWSProviderName       = "aws"
-	AzureProviderName     = "azure"
-	BYOHProviderName      = "byoh"
-	DockerProviderName    = "docker"
-	DOProviderName        = "digitalocean"
-	GCPProviderName       = "gcp"
-	HetznerProviderName   = "hetzner"
-	IBMCloudProviderName  = "ibmcloud"
-	Metal3ProviderName    = "metal3"
-	NestedProviderName    = "nested"
-	OCIProviderName       = "oci"
-	OpenStackProviderName = "openstack"
-	PacketProviderName    = "packet"
-	SideroProviderName    = "sidero"
-	VSphereProviderName   = "vsphere"
-	MAASProviderName      = "maas"
+	AWSProviderName        = "aws"
+	AzureProviderName      = "azure"
+	BYOHProviderName       = "byoh"
+	CloudStackProviderName = "cloudstack"
+	DockerProviderName     = "docker"
+	DOProviderName         = "digitalocean"
+	GCPProviderName        = "gcp"
+	HetznerProviderName    = "hetzner"
+	IBMCloudProviderName   = "ibmcloud"
+	Metal3ProviderName     = "metal3"
+	NestedProviderName     = "nested"
+	OCIProviderName        = "oci"
+	OpenStackProviderName  = "openstack"
+	PacketProviderName     = "packet"
+	SideroProviderName     = "sidero"
+	VSphereProviderName    = "vsphere"
+	MAASProviderName       = "maas"
 )
 
 // Bootstrap providers.
@@ -194,6 +195,11 @@ func (p *providersClient) defaults() []Provider {
 		&provider{
 			name:         IBMCloudProviderName,
 			url:          "https://github.com/kubernetes-sigs/cluster-api-provider-ibmcloud/releases/latest/infrastructure-components.yaml",
+			providerType: clusterctlv1.InfrastructureProviderType,
+		},
+		&provider{
+			name:         CloudStackProviderName,
+			url:          "https://github.com/kubernetes-sigs/cluster-api-provider-cloudstack/releases/latest/infrastructure-components.yaml",
 			providerType: clusterctlv1.InfrastructureProviderType,
 		},
 
