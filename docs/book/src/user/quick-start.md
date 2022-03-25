@@ -519,8 +519,6 @@ export CLOUDSTACK_WORKER_MACHINE_OFFERING=<worker node service offering name>
 export CLOUDSTACK_TEMPLATE_NAME=<template name>
 # The ssh key to use to log into the nodes
 export CLOUDSTACK_SSH_KEY_NAME=<ssh key name>
-# The kubernetes version of the workload cluster
-export KUBERNETES_VERSION=<kubernetes version>
 
 ```
 
