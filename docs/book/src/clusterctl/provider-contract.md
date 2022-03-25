@@ -190,19 +190,19 @@ providers.
 |CACPN         | cluster.x-k8s.io/provider=control-plane-nested         |
 |CAPA          | cluster.x-k8s.io/provider=infrastructure-aws           |
 |CAPB          | cluster.x-k8s.io/provider=infrastructure-byoh          |
-|CAPH          | cluster.x-k8s.io/provider=infrastructure-hetzner       |
-|CAPIBM        | cluster.x-k8s.io/provider=infrastructure-ibmcloud      |
-|CAPV          | cluster.x-k8s.io/provider=infrastructure-vsphere       |
+|CAPC          | cluster.x-k8s.io/provider=infrastructure-cloudstack    |
 |CAPD          | cluster.x-k8s.io/provider=infrastructure-docker        |
-|CAPM3         | cluster.x-k8s.io/provider=infrastructure-metal3        |
-|CAPN          | cluster.x-k8s.io/provider=infrastructure-nested        |
-|CAPP          | cluster.x-k8s.io/provider=infrastructure-packet        |
-|CAPZ          | cluster.x-k8s.io/provider=infrastructure-azure         |
-|CAPOCI        | cluster.x-k8s.io/provider=infrastructure-oci           |
-|CAPO          | cluster.x-k8s.io/provider=infrastructure-openstack     |
 |CAPDO         | cluster.x-k8s.io/provider=infrastructure-digitalocean  |
 |CAPG          | cluster.x-k8s.io/provider=infrastructure-gcp           |
-|CAPC          | cluster.x-k8s.io/provider=infrastructure-cloudstack    |
+|CAPH          | cluster.x-k8s.io/provider=infrastructure-hetzner       |
+|CAPIBM        | cluster.x-k8s.io/provider=infrastructure-ibmcloud      |
+|CAPM3         | cluster.x-k8s.io/provider=infrastructure-metal3        |
+|CAPN          | cluster.x-k8s.io/provider=infrastructure-nested        |
+|CAPO          | cluster.x-k8s.io/provider=infrastructure-openstack     |
+|CAPOCI        | cluster.x-k8s.io/provider=infrastructure-oci           |
+|CAPP          | cluster.x-k8s.io/provider=infrastructure-packet        |
+|CAPV          | cluster.x-k8s.io/provider=infrastructure-vsphere       |
+|CAPZ          | cluster.x-k8s.io/provider=infrastructure-azure         |
 
 ### Workload cluster templates
 
