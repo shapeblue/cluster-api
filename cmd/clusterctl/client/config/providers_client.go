@@ -199,7 +199,7 @@ func (p *providersClient) defaults() []Provider {
 		},
 		&provider{
 			name:         CloudStackProviderName,
-			url:          "https://github.com/kubernetes-sigs/cluster-api-provider-cloudstack/releases/latest/infrastructure-components.yaml",
+			url:          "https://github.com/shapeblue/cluster-api-provider-cloudstack/releases/latest/infrastructure-components.yaml",
 			providerType: clusterctlv1.InfrastructureProviderType,
 		},
 

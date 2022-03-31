@@ -522,7 +522,7 @@ export CLOUDSTACK_SSH_KEY_NAME=<ssh key name>
 
 ```
 
-A full configuration reference can be found in [configuration.md](https://github.com/kubernetes-sigs/cluster-api-provider-cloudstack/blob/master/docs/book/src/clustercloudstack/configuration.md).
+A full configuration reference can be found in [configuration.md](https://github.com/shapeblue/cluster-api-provider-cloudstack-prototype/blob/master/docs/book/src/clustercloudstack/configuration.md).
 
 {{#/tab }}
 {{#tab DigitalOcean}}
